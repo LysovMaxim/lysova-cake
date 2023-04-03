@@ -1,0 +1,44 @@
+.hero{
+    background-image: linear-gradient(rgba(34, 35, 39, 0.4), rgba(34, 35, 39, 0.4)),
+    url(../images/title-cake.jpg);
+      background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo{
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Tangerine";
+    letter-spacing: 0.03em;
+    font-size: 50px;
+    line-height: 28px;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+.contact-tel{
+    font-family: "Open+Sans";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title{
+    font-family: "Open+Sans" ;
+    color: rgb(253, 253, 253);
+    margin-top: 20px;
+}
+
+.address{
+     font-family: "Open+Sans";
+    display: block;
+    text-decoration: none;
+     color: rgb(255, 254, 254);
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
