@@ -1,7 +1,8 @@
 .hero{
-    background-image: linear-gradient(rgba(41, 41, 44, 0.4), rgba(41, 41, 44, 0.4)),
+    background-image: linear-gradient( rgba(50.2,50.2,50.2,0.7)),
     url(../images/photo-title.jpg);
       background-repeat: no-repeat;
+      background-color: rgba(0,0,0,0.5);
   background-position: center;
   background-size: cover;
   padding-top: 10px;
@@ -13,7 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color:hotpink;
     font-family: "Tangerine";
     letter-spacing: 0.03em;
     font-size: 70px;
@@ -30,8 +31,26 @@
     gap:15px;
 }
 
+
+.social-media{
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hotpink;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+
 .cake{
-    fill: rgb(255, 255, 255);
+    fill:hotpink;
 }
 
 .icon{
@@ -39,7 +58,7 @@
 }
 
 .phone{
-    fill: rgb(255, 255, 255);
+   fill:hotpink;
 }
 
 .contact-tel{
@@ -55,18 +74,18 @@
 }
 
 .title{
-    font-family: "Open+Sans" ;
+    font-family: "Lora" ;
     color: rgb(253, 253, 253);
     font-size: 30px;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .address{
-     font-family: "Open+Sans";
+     font-family: "Lora";
     display: block;
     text-decoration: none;
      color: rgb(255, 254, 254);
-    margin-top: 140px;
+    margin-top: 70px;
     background-color: inherit;
     
 }

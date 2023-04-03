@@ -48,9 +48,10 @@ body {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 41, 44, 0.4)), to(rgba(41, 41, 44, 0.4))), url(../images/photo-title.jpg);
-  background-image: linear-gradient(rgba(41, 41, 44, 0.4), rgba(41, 41, 44, 0.4)), url(../images/photo-title.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.7))), url(../images/photo-title.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.7)), url(../images/photo-title.jpg);
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
   background-position: center;
   background-size: cover;
   padding-top: 10px;
@@ -68,7 +69,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: rgb(255, 255, 255);
+  color: hotpink;
   font-family: "Tangerine";
   letter-spacing: 0.03em;
   font-size: 70px;
@@ -88,8 +89,33 @@ body {
   gap: 15px;
 }
 
+.social-media {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-media-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: hotpink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .cake {
-  fill: rgb(255, 255, 255);
+  fill: hotpink;
 }
 
 .icon {
@@ -97,7 +123,7 @@ body {
 }
 
 .phone {
-  fill: rgb(255, 255, 255);
+  fill: hotpink;
 }
 
 .contact-tel {
@@ -119,17 +145,17 @@ body {
 }
 
 .title {
-  font-family: "Open+Sans";
+  font-family: "Lora";
   color: rgb(253, 253, 253);
   font-size: 30px;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 .address {
-  font-family: "Open+Sans";
+  font-family: "Lora";
   display: block;
   text-decoration: none;
   color: rgb(255, 254, 254);
-  margin-top: 140px;
+  margin-top: 70px;
   background-color: inherit;
 }/*# sourceMappingURL=main.css.map */
