@@ -141,7 +141,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 40px;
-  background-color: inherit;
 }
 
 .title {
@@ -157,5 +156,4 @@ body {
   text-decoration: none;
   color: rgb(255, 254, 254);
   margin-top: 70px;
-  background-color: inherit;
 }/*# sourceMappingURL=main.css.map */
