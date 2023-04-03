@@ -4,7 +4,7 @@
       background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 70px;
+  padding-top: 10px;
   padding-bottom: 100px;
 }
 
@@ -22,6 +22,17 @@
     
 }
 
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap:10px;
+}
+
+.cake{
+    fill: rgb(255, 255, 255);
+}
+
 .contact-tel{
     font-family: "Open+Sans";
     color: rgb(255, 255, 255);
@@ -29,7 +40,7 @@
     font-size: 20px;
     display: block;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 40px;
     background-color: inherit;
 }
 
