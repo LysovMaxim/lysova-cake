@@ -1,5 +1,5 @@
 .hero{
-    background-image: linear-gradient(rgba(34, 35, 39, 0.4), rgba(34, 35, 39, 0.4)),
+    background-image: linear-gradient(rgba(41, 41, 44, 0.4), rgba(41, 41, 44, 0.4)),
     url(../images/photo-title.jpg);
       background-repeat: no-repeat;
   background-position: center;
@@ -34,13 +34,22 @@
     fill: rgb(255, 255, 255);
 }
 
+.icon{
+    fill: rgb(255, 255, 255);
+}
+
+.phone{
+    fill: rgb(255, 255, 255);
+}
+
 .contact-tel{
     font-family: "Open+Sans";
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 20px;
-    display: block;
-    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 40px;
     background-color: inherit;
 }

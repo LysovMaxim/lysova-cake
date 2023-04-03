@@ -48,8 +48,8 @@ body {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 35, 39, 0.4)), to(rgba(34, 35, 39, 0.4))), url(../images/photo-title.jpg);
-  background-image: linear-gradient(rgba(34, 35, 39, 0.4), rgba(34, 35, 39, 0.4)), url(../images/photo-title.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 41, 44, 0.4)), to(rgba(41, 41, 44, 0.4))), url(../images/photo-title.jpg);
+  background-image: linear-gradient(rgba(41, 41, 44, 0.4), rgba(41, 41, 44, 0.4)), url(../images/photo-title.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -92,13 +92,28 @@ body {
   fill: rgb(255, 255, 255);
 }
 
+.icon {
+  fill: rgb(255, 255, 255);
+}
+
+.phone {
+  fill: rgb(255, 255, 255);
+}
+
 .contact-tel {
   font-family: "Open+Sans";
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 20px;
-  display: block;
-  text-align: center;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 40px;
   background-color: inherit;
 }
