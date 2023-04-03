@@ -10,8 +10,9 @@
 
 .logo{
    
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: rgb(255, 255, 255);
     font-family: "Tangerine";
     letter-spacing: 0.03em;
@@ -26,7 +27,7 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    gap:10px;
+    gap:15px;
 }
 
 .cake{
