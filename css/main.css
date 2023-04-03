@@ -48,8 +48,8 @@ body {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 35, 39, 0.4)), to(rgba(34, 35, 39, 0.4))), url(../images/title-cake.jpg);
-  background-image: linear-gradient(rgba(34, 35, 39, 0.4), rgba(34, 35, 39, 0.4)), url(../images/title-cake.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 35, 39, 0.4)), to(rgba(34, 35, 39, 0.4))), url(../images/photo-title.jpg);
+  background-image: linear-gradient(rgba(34, 35, 39, 0.4), rgba(34, 35, 39, 0.4)), url(../images/photo-title.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
