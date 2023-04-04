@@ -71,6 +71,10 @@ body {
   fill: rgba(255, 255, 255, 0.5);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.7))), url(../images/photo-title.jpg);
   background-image: linear-gradient(rgba(50, 50, 50, 0.7)), url(../images/photo-title.jpg);
