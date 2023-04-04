@@ -47,6 +47,30 @@ body {
   color: #3a3a3a;
 }
 
+.up-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  position: fixed;
+  left: 10px;
+  top: 618px;
+  z-index: 1;
+  background-color: rgba(244, 193, 193, 0.3);
+}
+
+.up {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
 .hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.7))), url(../images/photo-title.jpg);
   background-image: linear-gradient(rgba(50, 50, 50, 0.7)), url(../images/photo-title.jpg);
