@@ -127,7 +127,7 @@ body {
 }
 
 .contact-tel {
-  font-family: "Playfair Display";
+  font-family: "Lora";
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 25px;
@@ -144,14 +144,14 @@ body {
 }
 
 .title {
-  font-family: "Playfair Display";
+  font-family: "Lora";
   color: rgb(253, 253, 253);
   font-size: 30px;
   margin-top: 60px;
 }
 
 .address {
-  font-family: "Playfair Display";
+  font-family: "Lora";
   display: block;
   text-decoration: none;
   color: rgb(255, 255, 255);
