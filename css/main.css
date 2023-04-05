@@ -80,6 +80,27 @@ body {
   display: none;
 }
 
+.mobile {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background-color: hotpink;
+  border: 0px;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  width: 35px;
+  height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.7))), url(../images/photo-title.jpg);
   background-image: linear-gradient(rgba(50, 50, 50, 0.7)), url(../images/photo-title.jpg);
