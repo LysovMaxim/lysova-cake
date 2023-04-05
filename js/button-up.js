@@ -3,10 +3,10 @@
 const btnUp = {
   el: document.querySelector('.btn-up'),
   show() {
-    this.el.classList.remove('btn-up_hide');
+    this.el.classList.remove('btn-up-hide');
   },
   hide() {
-    this.el.classList.add('btn-up_hide');
+    this.el.classList.add('btn-up-hide');
   },
   addEventListener() {
     window.addEventListener('scroll', () => {
