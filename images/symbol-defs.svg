@@ -28,5 +28,8 @@
 <symbol id="icon-mob-menu" viewBox="0 0 48 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M0 5.333v-5.333h48v5.333h-48zM0 18.667h48v-5.333h-48v5.333zM0 32h48v-5.333h-48v5.333z"></path>
 </symbol>
+<symbol id="icon-close" viewBox="0 0 32 32">
+<path d="M26.667 7.303l-1.97-1.97-7.808 7.808-7.808-7.808-1.97 1.97 7.808 7.808-7.808 7.808 1.97 1.97 7.808-7.808 7.808 7.808 1.97-1.97-7.808-7.808 7.808-7.808z"></path>
+</symbol>
 </defs>
 </svg>

@@ -47,6 +47,16 @@ body {
   color: #3a3a3a;
 }
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
 .btn-up {
   position: fixed;
   background-color: rgba(244, 193, 193, 0.5);
@@ -90,7 +100,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: auto;
   width: 40px;
   height: 40px;
   -webkit-box-align: center;
@@ -135,6 +144,58 @@ body {
 
 .mobile-flat-el::after {
   bottom: -8px;
+}
+
+.mob-menu {
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #070707;
+}
+.mob-menu > .mob-container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: auto;
+}
+
+.mob-close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  border: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: hotpink;
+  cursor: pointer;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-close {
+  fill: #fff;
 }
 
 .hero {

@@ -43,3 +43,13 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #3a3a3a;
 }
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
