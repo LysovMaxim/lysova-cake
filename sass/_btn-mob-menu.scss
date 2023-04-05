@@ -11,6 +11,7 @@
   height: 40px;
   align-items: center;
   justify-content: center;
+  
 }
 
 .mobile-flat {
@@ -18,12 +19,14 @@
 	height: 16px;
 	position: relative;
 	width: 22px;
+
 }
 
 .mobile-flat-el {
 	display: block;
 	margin-top: -1px;
 	top: 50%;
+
 }
 .mobile-flat-el,
 .mobile-flat-el::before,
@@ -32,6 +35,7 @@
 	height: 2px;
 	position: absolute;
 	width: 23px;
+
 }
 .mobile-flat-el::before,
 .mobile-flat-el::after {
