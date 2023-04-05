@@ -21,13 +21,13 @@
   width: 100vw;
   height: 100vh;
   background-color: #070707;
-  > .mob-container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: auto;
-  }
+}
+
+.mob-container{
+  padding-top: 40px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  padding-left: 60px;
 }
 
 .mob-close {
@@ -52,4 +52,20 @@
   fill: #fff;
 }
 
+.mob-list{
+  margin-top: 30px;
+}
+
+.mob-list-item{
+  margin-top: 10px;
+}
+
+.mob-list-item-link{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 30px;
+}
 
