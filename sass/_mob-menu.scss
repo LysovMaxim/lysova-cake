@@ -4,6 +4,7 @@
     top: 10px;
   background-color: hotpink;
   border: 0px;
+  padding: 0px;
   border-radius: 3px;
   display: flex;
   width: 40px;
@@ -11,41 +12,6 @@
   align-items: center;
   justify-content: center;
 
-}
-
-.mobile-flat {
-	display: block;
-	height: 16px;
-	position: relative;
-	width: 22px;
-
-}
-
-.mobile-flat-el {
-	display: block;
-	margin-top: -1px;
-	top: 50%;
-
-}
-.mobile-flat-el,
-.mobile-flat-el::before,
-.mobile-flat-el::after {
-	background-color: #fff;
-	height: 2px;
-	position: absolute;
-	width: 23px;
-
-}
-.mobile-flat-el::before,
-.mobile-flat-el::after {
-	content: "";
-	display: block;
-}
-.mobile-flat-el::before {
-	top: -8px;
-}
-.mobile-flat-el::after {
-	bottom: -8px;
 }
 
 .mob-menu {
