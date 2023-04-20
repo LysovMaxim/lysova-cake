@@ -176,8 +176,8 @@ body {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.7))), url(../images/photo-title.jpg);
-  background-image: linear-gradient(rgba(50, 50, 50, 0.7)), url(../images/photo-title.jpg);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2.7%, #FFFFFF), color-stop(94.11%, rgba(255, 255, 255, 0.5))), url(../images/photo-title.jpg);
+  background-image: linear-gradient(0deg, #FFFFFF 2.7%, rgba(255, 255, 255, 0.5) 94.11%), url(../images/photo-title.jpg);
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.5);
   background-position: center;
@@ -197,7 +197,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: hotpink;
+  color: #D11D65;
   font-family: "Tangerine";
   letter-spacing: 0.03em;
   font-size: 70px;
@@ -229,7 +229,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: hotpink;
+  background-color: #D11D65;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,20 +242,20 @@ body {
 }
 
 .cake {
-  fill: hotpink;
+  fill: #D11D65;
 }
 
 .icon {
-  fill: rgb(255, 255, 255);
+  fill: #ffffff;
 }
 
 .phone {
-  fill: hotpink;
+  fill: #D11D65;
 }
 
 .contact-tel {
   font-family: "Open+Sans";
-  color: rgb(255, 255, 255);
+  color: #000;
   text-decoration: none;
   font-size: 25px;
   display: -webkit-box;
@@ -272,7 +272,7 @@ body {
 
 .title {
   font-family: "Playfair Display";
-  color: rgb(253, 253, 253);
+  color: #000;
   font-size: 30px;
   margin-top: 60px;
 }
@@ -281,13 +281,17 @@ body {
   font-family: "Playfair Display";
   display: block;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #000;
   margin-top: 70px;
 }
 
 .about {
-  background-color: antiquewhite;
-  padding-top: 40px;
+  background-image: linear-gradient(357.12deg, #FFFFFF 5.41%, rgba(255, 255, 255, 0) 52.34%), linear-gradient(181.21deg, #FFFFFF 1.43%, rgba(255, 255, 255, 0) 25.43%), linear-gradient(0deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)), url(../images/photo-cake.jpg);
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
   padding-left: 10px;
   padding-bottom: 60px;
   padding-right: 10px;
@@ -305,6 +309,9 @@ body {
   margin: auto;
   -webkit-box-shadow: -2px 7px 38px 9px rgba(17, 17, 17, 0.58);
           box-shadow: -2px 7px 38px 9px rgba(17, 17, 17, 0.58);
+  position: absolute;
+  left: 80px;
+  top: 700px;
 }
 
 .about-mari-title {
