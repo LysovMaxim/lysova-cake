@@ -343,11 +343,8 @@ body {
 
 .catalog-item {
   background-color: rgb(255, 255, 255);
-  padding-top: 8px;
-  padding-right: 8px;
-  padding-left: 8px;
-  -webkit-box-shadow: -2px 7px 38px 9px rgba(17, 17, 17, 0.58);
-          box-shadow: -2px 7px 38px 9px rgba(17, 17, 17, 0.58);
+  -webkit-box-shadow: -7px 9px 8px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: -7px 9px 8px 0px rgba(34, 60, 80, 0.2);
   margin-top: 30px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -370,10 +367,30 @@ body {
   color: black;
 }
 
+.catalog-photo {
+  overflow: hidden;
+}
+
+.catalog-photo img {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.catalog-photo:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .advantages {
-  background-color: rgb(241, 237, 231);
   padding-top: 30px;
   padding-bottom: 30px;
+  background-image: linear-gradient(357.12deg, #FFFFFF 5.41%, rgba(255, 255, 255, 0) 52.34%), linear-gradient(181.21deg, #FFFFFF 1.43%, rgba(255, 255, 255, 0) 25.43%), linear-gradient(0deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)), url(../images/photo-title-advantages.jpg);
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: cover;
 }
 
 .advantages-title {

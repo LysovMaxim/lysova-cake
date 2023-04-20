@@ -13,10 +13,7 @@
 
 .catalog-item{
     background-color: rgb(255, 255, 255);
-    padding-top: 8px;
-    padding-right: 8px;
-    padding-left: 8px;
-   box-shadow: -2px 7px 38px 9px rgba(17,17,17,0.58);
+   box-shadow: -7px 9px 8px 0px rgba(34, 60, 80, 0.2);
    margin-top: 30px;
    border-bottom-left-radius:10px;
    border-bottom-right-radius:10px;
@@ -37,4 +34,17 @@
     font-size: 25px;
     font-family: "Playfair Display";
     color: black;
+}
+
+.catalog-photo {
+    overflow: hidden;
+}
+
+.catalog-photo img {
+    transition: transform 0.5s;
+
+}
+
+.catalog-photo:hover img {
+    transform: scale(1.1);
 }
