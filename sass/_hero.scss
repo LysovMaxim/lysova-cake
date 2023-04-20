@@ -6,7 +6,7 @@
   background-position: center;
   background-size: cover;
   padding-top: 10px;
-  padding-bottom: 70px;
+  padding-bottom: 10px;
 }
 
 .logo{
@@ -80,7 +80,20 @@
     display: block;
     text-decoration: none;
      color: #000;
-    margin-top: 150px;
+    // margin-top: 150px;
+    margin-top: 60px;
+}
+
+.layer-el{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.layer{
+  fill: #D11D65;
 }
 
 
