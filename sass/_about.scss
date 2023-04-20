@@ -5,14 +5,23 @@
       background-color: rgba(0,0,0,0.5);
   background-position: center;
   background-size: cover;
-  padding-top: 100px;
     padding-left: 10px;
+    padding-top: 120px;
     padding-bottom: 60px;
     padding-right: 10px;
+  
+    
 }
 
-.about-mari{
-    background-image:
+.about-mari-title{
+    font-family: "Playfair Display";
+    text-align: center;
+    position: relative;
+}
+
+.about-mari-title::before {
+      content: '';
+        background-image:
     url(../images/photo.jpg);
       background-repeat: no-repeat;
       background-color: rgba(0,0,0,0.5);
@@ -21,20 +30,13 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin: auto;
   box-shadow: -2px 7px 38px 9px rgba(17,17,17,0.58);
   position: absolute;
-  left: 80px;
-  top:700px;
+bottom: 0.1px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-
-}
-
-.about-mari-title{
-    font-family: "Playfair Display";
-    text-align: center;
-    margin-top: 30px;
-}
+    }
 
 .about-mari-text{
     margin-top: 10px;

@@ -275,6 +275,7 @@ body {
   color: #000;
   font-size: 30px;
   margin-top: 60px;
+  width: 280px;
 }
 
 .address {
@@ -283,6 +284,7 @@ body {
   text-decoration: none;
   color: #000;
   margin-top: 110px;
+  width: 300px;
 }
 
 .about {
@@ -291,13 +293,20 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   background-position: center;
   background-size: cover;
-  padding-top: 100px;
   padding-left: 10px;
+  padding-top: 120px;
   padding-bottom: 60px;
   padding-right: 10px;
 }
 
-.about-mari {
+.about-mari-title {
+  font-family: "Playfair Display";
+  text-align: center;
+  position: relative;
+}
+
+.about-mari-title::before {
+  content: "";
   background-image: url(../images/photo.jpg);
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.5);
@@ -306,18 +315,13 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin: auto;
   -webkit-box-shadow: -2px 7px 38px 9px rgba(17, 17, 17, 0.58);
           box-shadow: -2px 7px 38px 9px rgba(17, 17, 17, 0.58);
   position: absolute;
-  left: 80px;
-  top: 700px;
-}
-
-.about-mari-title {
-  font-family: "Playfair Display";
-  text-align: center;
-  margin-top: 30px;
+  bottom: 0.1px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .about-mari-text {
