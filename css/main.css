@@ -183,7 +183,7 @@ body {
   background-position: center;
   background-size: cover;
   padding-top: 10px;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
 }
 
 .logo {
@@ -292,7 +292,7 @@ body {
   background-position: center;
   background-size: cover;
   padding-left: 10px;
-  padding-top: 270px;
+  padding-top: 240px;
   padding-bottom: 60px;
   padding-right: 10px;
 }
@@ -310,13 +310,13 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   background-position: center;
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  -webkit-box-shadow: -2px 7px 38px 9px rgba(17, 17, 17, 0.58);
-          box-shadow: -2px 7px 38px 9px rgba(17, 17, 17, 0.58);
+  -webkit-box-shadow: -2px 7px 38px 9px rgba(255, 192, 203, 0.58);
+          box-shadow: -2px 7px 38px 9px rgba(255, 192, 203, 0.58);
   position: absolute;
-  bottom: 30px;
+  bottom: -20px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
