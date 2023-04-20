@@ -183,8 +183,7 @@ body {
   background-position: center;
   background-size: cover;
   padding-top: 10px;
-  padding-bottom: 170px;
-  height: 100vh;
+  padding-bottom: 90px;
 }
 
 .logo {
@@ -296,7 +295,6 @@ body {
   padding-top: 270px;
   padding-bottom: 60px;
   padding-right: 10px;
-  height: 100vh;
 }
 
 .about-mari-title {
