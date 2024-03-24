@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lysova-cake/static/css/main.7acaea2f.css",
+    "main.js": "/lysova-cake/static/js/main.07d3183d.js",
+    "index.html": "/lysova-cake/index.html",
+    "main.7acaea2f.css.map": "/lysova-cake/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/lysova-cake/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
