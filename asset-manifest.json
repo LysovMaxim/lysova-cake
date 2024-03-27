@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lysova-cake/static/css/main.7acaea2f.css",
-    "main.js": "/lysova-cake/static/js/main.07d3183d.js",
+    "main.js": "/lysova-cake/static/js/main.4ddd0624.js",
     "index.html": "/lysova-cake/index.html",
     "main.7acaea2f.css.map": "/lysova-cake/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/lysova-cake/static/js/main.07d3183d.js.map"
+    "main.4ddd0624.js.map": "/lysova-cake/static/js/main.4ddd0624.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.4ddd0624.js"
   ]
 }
