@@ -13,8 +13,7 @@ export const Header = () => {
           <li className={css.headerListElement}>Торт за ескізом</li>
           <li className={css.headerListElement}>Каталог</li>
           <li className={css.headerListElement}>Ціни</li>
-          <li className={css.headerListElement}>Контакти</li>
-          
+          <li className={css.headerListElement}>Контакти</li>        
         </ul>
         <Basket className={css.headerBasket} />
         <a href="tel:+380730368141" className={css.headerTel}>

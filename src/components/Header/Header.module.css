@@ -33,6 +33,28 @@ margin-right: 41px;
   line-height: normal;
 }
 
+.headerListElement{
+  position: relative;
+  cursor: pointer;
+}
+
+.headerListElement:hover:before{
+  transform: scaleX(1);
+transition: transform 0.25s;
+}
+
+.headerListElement:before{
+content: "";
+width: 100%;
+height: 1px;
+background-color: #977A58;
+position: absolute;
+top: 30px;
+transform: scaleX(0);
+transition: transform 0.25s;
+
+}
+
 .headerBasket{
 margin-right: 99px;
 }
