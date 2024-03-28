@@ -5,7 +5,7 @@ import css from './Header.module.css';
 
 export const Header = () => {
   return (
-    <header>
+    <header className={css.header}>
       <div className={css.container}>
         <Logo className={css.logo} />
         <ul className={css.headerList}>
