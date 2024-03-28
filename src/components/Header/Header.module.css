@@ -1,7 +1,7 @@
-.header{
+.header {
   position: absolute;
   width: 100%;
-  padding-top: 34px;
+  padding-top: 25px;
   padding-bottom: 18px;
 }
 
@@ -14,14 +14,14 @@
   align-items: center;
 }
 
-.logo{
-    margin-right: 97px;
+.logo {
+  margin-right: 97px;
 }
 
 .headerList {
   display: flex;
   gap: 41px;
-margin-right: 41px;
+  margin-right: 41px;
 }
 
 .headerListElement {
@@ -33,38 +33,37 @@ margin-right: 41px;
   line-height: normal;
 }
 
-.headerListElement{
+.headerListElement {
   position: relative;
   cursor: pointer;
 }
 
-.headerListElement:hover:before{
+.headerListElement:hover:before {
   transform: scaleX(1);
-transition: transform 0.25s;
+  transition: transform 0.25s;
 }
 
-.headerListElement:before{
-content: "";
-width: 100%;
-height: 1px;
-background-color: #977A58;
-position: absolute;
-top: 30px;
-transform: scaleX(0);
-transition: transform 0.25s;
-
+.headerListElement:before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #977a58;
+  position: absolute;
+  top: 30px;
+  transform: scaleX(0);
+  transition: transform 0.25s;
 }
 
-.headerBasket{
-margin-right: 99px;
+.headerBasket {
+  margin-right: 99px;
 }
 
-.headerFaPhone{
-    color: #977A58;
+.headerFaPhone {
+  color: #977a58;
 }
 
 .headerTel {
-    margin-left: auto;
+  margin-left: auto;
   color: #977a58;
   font-family: Garamond;
   font-size: 20px;
@@ -72,7 +71,7 @@ margin-right: 99px;
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
-  gap:10px;
+  gap: 10px;
   display: flex;
-    align-items: center;
+  align-items: center;
 }
