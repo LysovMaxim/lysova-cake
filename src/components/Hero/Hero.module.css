@@ -84,4 +84,6 @@
     left: 530px;
     border-top-left-radius: 250px;
     border-top-right-radius: 250px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
