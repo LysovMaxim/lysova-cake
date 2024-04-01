@@ -4,9 +4,34 @@ import { FaPhone } from 'react-icons/fa6';
 import css from './Header.module.css';
 import { Link } from 'react-scroll';
 
+import React, { useState, useEffect } from 'react';
+
 export const Header = () => {
+  const [showHeader, setShowHeader] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const windowHeight = window.innerHeight;
+      const scrollPosition = window.scrollY;
+      const pageHeight = document.body.clientHeight;
+
+      if (!showHeader && scrollPosition >= pageHeight / 2 - windowHeight / 2) {
+        setShowHeader(true);
+      } else if (showHeader && scrollPosition < pageHeight / 2 - windowHeight / 2) {
+        setShowHeader(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [showHeader]);
+
+  
   return (
-    <header className={css.header}>
+    <header className={`${css.header} ${showHeader ? css.showHeader : ''}`}>
       <div className={css.container}>
         <Logo className={css.logo} />
         <ul className={css.headerList}>
