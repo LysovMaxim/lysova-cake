@@ -2,6 +2,7 @@ import { ReactComponent as Logo } from '../../images/logo.svg';
 import { ReactComponent as Basket } from '../../images/basket.svg';
 import { FaPhone } from 'react-icons/fa6';
 import css from './Header.module.css';
+import { Link } from 'react-scroll';
 
 export const Header = () => {
   return (
@@ -9,7 +10,7 @@ export const Header = () => {
       <div className={css.container}>
         <Logo className={css.logo} />
         <ul className={css.headerList}>
-          <li className={css.headerListElement}>Про мене</li>
+          <li ><Link to="section" smooth={true} duration={500} className={css.headerListElement}>Про мене</Link></li>
           <li className={css.headerListElement}>Торт за ескізом</li>
           <li className={css.headerListElement}>Каталог</li>
           <li className={css.headerListElement}>Ціни</li>
