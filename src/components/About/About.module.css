@@ -1,10 +1,56 @@
-.about{
-    
+.about {
+  
+  background: linear-gradient(180deg, #f9f3f2 0%, rgba(249, 243, 242, 0) 100%);
 }
 
 .container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 85px;
+}
+
+.aboutTitle {
+  color: #977a58;
+  font-family: 'Playfair Display';
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.aboutTitleInfo {
+  width: 638px;
+  color: #977a58;
+  font-family: Garamond;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 26px;
+}
+
+.aboutTitleInfo:last-child {
+  margin-bottom: 0;
+}
+
+.bubblesAbout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.photoUser {
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  position: relative;
+  z-index: 1;
 }
