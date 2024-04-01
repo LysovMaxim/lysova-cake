@@ -2,7 +2,7 @@ import css from './About.module.css';
 
 export const About = () => {
   return (
-    <section>
+    <section className={css.about}>
       <div className={css.container}>
         <h2 >Трохи про мене</h2>
         <p>
