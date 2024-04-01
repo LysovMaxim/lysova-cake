@@ -4,7 +4,7 @@ import photoUser from '../../images/photo-user.jpg';
 
 export const About = () => {
   return (
-    <section className={css.about} id="section">
+    <section className={css.about} id="about">
       <div className={css.container}>
         <div>
           <h2 className={css.aboutTitle}>Трохи про мене</h2>
