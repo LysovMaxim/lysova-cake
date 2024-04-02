@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lysova-cake/static/css/main.7bbe1b3b.css",
+    "main.css": "/lysova-cake/static/css/main.965f1d70.css",
     "main.js": "/lysova-cake/static/js/main.1651ca52.js",
     "static/media/photo-user.jpg": "/lysova-cake/static/media/photo-user.b0bc4f8b4dcff351ca79.jpg",
     "static/media/photo-title.jpg": "/lysova-cake/static/media/photo-title.4b39ea3f98ca5b9d87b7.jpg",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/lysova-cake/static/media/logo.17c75c121a926c19e126d4668b6072ed.svg",
     "static/media/basket.svg": "/lysova-cake/static/media/basket.f28b4fc1d778e718aee5cab5c627a09b.svg",
     "index.html": "/lysova-cake/index.html",
-    "main.7bbe1b3b.css.map": "/lysova-cake/static/css/main.7bbe1b3b.css.map",
+    "main.965f1d70.css.map": "/lysova-cake/static/css/main.965f1d70.css.map",
     "main.1651ca52.js.map": "/lysova-cake/static/js/main.1651ca52.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bbe1b3b.css",
+    "static/css/main.965f1d70.css",
     "static/js/main.1651ca52.js"
   ]
 }
